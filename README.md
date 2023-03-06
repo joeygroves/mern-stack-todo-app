@@ -29,7 +29,7 @@ npm install
 ```cmd
 cd ..
 cd api
-nodemon server.js
+npm start
 ```
 
 ### 5. Build the frontend server
