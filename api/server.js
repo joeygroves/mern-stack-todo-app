@@ -40,4 +40,12 @@ app.post('/todo/new', (req, res) => {
     res.json(todo);
 });
 
+// Deletes a route (task) by its id, ':id' is a dynamic piece of data we are going to pass through the URL
+// the 'id' in '/todo/delete/:id' is in 'req.params.id'
+app.delete('/todo/delete/:id', async (req, res) => {
+    const result = await Todo.findByIdAndDelete(req.params.id);
+
+    res.json(result);
+});
+
 app.listen(3001, () => console.log("Server started on port 3001"));
