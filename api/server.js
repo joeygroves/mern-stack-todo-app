@@ -28,6 +28,7 @@ app.get('/todos', async (req, res) => {
     res.json(todos);
 });
 
+
 // Creates a new ToDo task, we only pass text because it's the only required field
 app.post('/todo/new', (req, res) => {
     const todo = new Todo({
@@ -40,12 +41,27 @@ app.post('/todo/new', (req, res) => {
     res.json(todo);
 });
 
+
 // Deletes a route (task) by its id, ':id' is a dynamic piece of data we are going to pass through the URL
 // the 'id' in '/todo/delete/:id' is in 'req.params.id'
 app.delete('/todo/delete/:id', async (req, res) => {
     const result = await Todo.findByIdAndDelete(req.params.id);
 
     res.json(result);
+});
+
+// Updates task and changes its status from active to complete
+app.put('/todo/complete/:id', async (req, res) => {
+    const todo = await Todo.findById(req.params.id);
+
+    // If it was 'completed' then we will change it to 'not completed' and vice-versa
+    todo.complete = !todo.complete;
+
+    // Saves it back to our database
+    todo.save();
+
+    // Pass back our todo with the new updated completion method
+    res.json(todo);
 });
 
 app.listen(3001, () => console.log("Server started on port 3001"));
