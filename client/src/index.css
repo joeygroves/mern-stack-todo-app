@@ -25,4 +25,15 @@ body {
 
 h1 {
     font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+
+}
+
+h4 {
+    font-size: 18px;
+    color: var(--light-alt);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
