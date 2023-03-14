@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_BASE = "https://localhost:3001";
+const API_BASE = "http://localhost:3001";
 
 function App() {
     const [ todos, setTodos ] = useState([]);
@@ -12,14 +12,14 @@ function App() {
         GetTodos();
 
         console.log(todos);
-    }, []);
+    }, [])
 
     const GetTodos = () => {
         fetch(API_BASE + "/todos")
             .then(res => res.json())
             .then(data => setTodos(data))
             .catch(err => console.error("Error: ", err));
-    };
+    }
 
     return (
         <div className="App">
@@ -35,7 +35,7 @@ function App() {
 
                         <div className="delete-todo">x</div>
                     </div>
-                ))};
+                ))}
             </div>
         </div>
     );
