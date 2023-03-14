@@ -51,7 +51,7 @@ app.delete('/todo/delete/:id', async (req, res) => {
 });
 
 // Updates task and changes its status from active to complete
-app.put('/todo/complete/:id', async (req, res) => {
+app.get('/todo/complete/:id', async (req, res) => {
     const todo = await Todo.findById(req.params.id);
 
     // If it was 'completed' then we will change it to 'not completed' and vice-versa
