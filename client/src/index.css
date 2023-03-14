@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -58,8 +59,9 @@ h4 {
     width: 20px;
     height: 20px;
     margin-right: 16px;
-    border-radius: 999px;
+    border-radius: 50%;
     background-color: var(--dark-alt);
+    background-image: linear-gradient(to bottom, transparent, transparent);
     transition: 0.4s;
 }
 
@@ -72,7 +74,7 @@ h4 {
     font-size: 20px;
 }
 
-.todo.todo.is-complete .text {
+.todo.is-complete .text {
     text-decoration: line-through;
 }
 
@@ -91,4 +93,5 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 700;
 }
