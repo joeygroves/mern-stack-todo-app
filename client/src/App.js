@@ -28,13 +28,13 @@ function App() {
 
             <div className="todos">
                 {todos.map(todo => (
-                <div className="todo">
-                    <div className="checkbox"></div>
+                    <div className="todo" key={todo._id}>
+                        <div className="checkbox"></div>
                     
-                    <div className="text">Get milk</div>
+                        <div className="text">{ todo.text }</div>
 
-                    <div className="delete-todo">x</div>
-                </div>
+                        <div className="delete-todo">x</div>
+                    </div>
                 ))};
             </div>
         </div>
