@@ -54,7 +54,7 @@ Made in Figma
 
 ## Application Flow Demo Screenshots
 
-1. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow1.png)
+### 1. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow1.png)
 
 2. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow2.png)
 
