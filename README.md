@@ -56,14 +56,14 @@ Made in Figma
 
 ### 1. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow1.png)
 
-2. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow2.png)
+### 2. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow2.png)
 
-3. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow3.png)
+### 3. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow3.png)
 
-4. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow4.png)
+### 4. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow4.png)
 
-5. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow5.png)
+### 5. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow5.png)
 
-6. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow6.png)
+### 6. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow6.png)
 
-7. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow7.png)
+### 7. ![alt text](https://github.com/joeygroves/mern-stack-todo-app/blob/main/ToDoApp-FlowDemo/ToDoApp-Flow7.png)
