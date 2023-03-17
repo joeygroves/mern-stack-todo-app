@@ -45,7 +45,9 @@ Made in Figma
 
 ## Features
 ### Completed
-- 
+- Add todos
+- Complete todos
+- Delete todos
 
 ### Planned
-- 
+- Need to fix a bug that crashes app when deleting an uncomplete todo
